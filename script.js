@@ -5,7 +5,7 @@ const searchBtn = document.getElementById("search-btn");
 const emptyMovie = document.getElementById("empty-movie");
 
 
- // GET MOVIE DATA FORM API
+//  GET MOVIE DATA FORM API
 async function getMovie(movieName) {
   try {
     const response = await fetch(
@@ -37,7 +37,7 @@ async function getMovie(movieName) {
                   <div class="movie-time">
                       <span><span class="time">${movie.Runtime}</span></span>
                       <span><span class="gan">${movie.Genre}</span></span>
-                      <span class="add-film " > <img src="./Icon.png" alt="" id="add-film">
+                      <span class="add-film " > <img src="image/Icon.png" alt="" id="add-film">
                               Watchlist</span>
                   </div>
                   <p class="movie-desc">${movie.Plot}</p>
