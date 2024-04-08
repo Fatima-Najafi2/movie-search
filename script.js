@@ -5,7 +5,7 @@ const searchBtn = document.getElementById("search-btn");
 const emptyMovie = document.getElementById("empty-movie");
 
 
- GET MOVIE DATA FORM API
+ // GET MOVIE DATA FORM API
 async function getMovie(movieName) {
   try {
     const response = await fetch(
