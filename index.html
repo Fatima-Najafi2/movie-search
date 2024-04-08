@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find your movies</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/8c1870b6fa.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <span>Find your films</span>
+  
+        <a href="watchlist.html"> My watchlist</a>
+      </div>
+    </header>
+
+    <form action="" class="input-search" id="form">
+      <label for="search"><i class="fa-solid fa-magnifying-glass"></i></label>
+      <input
+        type="text"
+        id="search"
+        name="search"
+        placeholder="Search for movie"
+      />
+      <button type="submit" id="search-btn">Search</button>
+    </form>
+    <main>
+      <div id="empty-movie">
+        <img src="image/no-data-initial.png" alt="" />
+      </div>
+      <div class="movie-list" id="movie-list"></div>
+    </main>
+    <script src="script.js" type="module"></script>
+
+  </body>
+</html>
