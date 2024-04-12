@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="movie-time">
               <span><span class="time-du">${movie.runtime}</span></span>
               <span><span class="gan">${movie.genre}</span></span>
-              <span class="remove-film" data-title="${movie.title}"> <img src="image/Icon (2).png" alt="">
+              <span class="remove-film" data-title="${movie.title}"> <img src="./Icon (2).png" alt="">
                             Remove</span>
             </div>
             <p class="movie-desc">${movie.plot}</p>
